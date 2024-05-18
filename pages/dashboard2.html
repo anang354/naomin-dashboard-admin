@@ -16,7 +16,7 @@
   <body>
     <!-- HEADER NAV -->
     <nav
-      class="top-0 z-50 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700"
+      class="top-0 z-50 w-full p-4 bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700"
     >
       <div class="px-3 py-3 lg:px-5 lg:pl-3">
         <div class="flex items-center justify-between">
@@ -222,7 +222,7 @@
                   class="flex items-center justify-between w-full px-3 py-2 text-gray-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-900 md:w-auto dark:text-gray-400 md:dark:hover:text-gray-300 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-400/10 dark:rounded-full md:dark:hover:bg-gray-400/10 group"
                 >
                   <svg
-                    class="hidden w-5 h-5 text-gray-600 md:block group-hover:text-gray-900 dark:text-gray-400 me-1"
+                    class="hidden w-5 h-5 dark:group-hover:text-gray-300 text-gray-600 md:block group-hover:text-gray-900 dark:text-gray-400 me-1"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -304,7 +304,7 @@
                   class="flex items-center justify-between w-full px-3 py-2 text-gray-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-900 md:w-auto dark:text-gray-400 md:dark:hover:text-gray-300 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-400/10 dark:rounded-full md:dark:hover:bg-gray-400/10 group"
                 >
                   <svg
-                    class="hidden w-5 h-5 text-gray-800 md:block md:text-gray-600 group-hover:text-gray-900 me-1 dark:text-gray-400"
+                    class="hidden w-5 h-5 text-gray-800 md:block md:text-gray-600 group-hover:text-gray-900 dark:group-hover:text-gray-300 me-1 dark:text-gray-400"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -467,13 +467,13 @@
 
     <!-- MAIN CONTENT HERE -->
     <div
-      class="flex justify-center w-full px-2 py-4 bg-white dark:bg-gray-900 md:px-0"
+      class="flex justify-center w-full px-2 py-4 bg-slate-100 dark:bg-gray-900 md:px-0"
     >
-      <div class="container">
+      <div class="container max-w-screen-xl p-4">
         <!-- BREADCRUMB -->
         <div
           id="breadcrumb"
-          class="hidden w-full px-4 py-3 border rounded bg-gray-50 dark:bg-gray-900 dark:border-gray-800 dark:text-white md:block lg:block xl:block"
+          class="hidden w-full px-4 py-3 border rounded bg-white dark:bg-gray-900 dark:border-gray-800 dark:text-white md:block lg:block xl:block"
         >
           <div class="flex items-center justify-between">
             <div class="inline text-sm">
@@ -508,7 +508,10 @@
           </div>
         </div>
         <!-- END OF BREADCRUMB -->
+
+        
         <div class="mt-2">
+          <!-- ROW 1 GENERAL REPORT  -->
           <div class="flex items-center justify-between w-full my-3">
             <h1 class="text-xl font-semibold text-gray-600 dark:text-gray-100">
               General Report
@@ -538,10 +541,10 @@
           </div>
 
           <div
-            class="grid grid-cols-1 gap-2 mb-2 md:gap-4 sm:grid-cols-2 lg:grid-cols-4"
+            class="grid grid-cols-1 gap-4 mb-2 md:gap-2 sm:grid-cols-2 lg:grid-cols-4"
           >
             <div
-              class="w-full p-6 transition bg-white border border-gray-200 rounded-lg shadow sm:max-w-sm dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg hover:scale-105"
+              class="w-full p-6 transition bg-white border border-gray-200 rounded-lg shadow md:max-w-md sm:max-w-sm dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg hover:scale-105"
             >
               <div class="flex items-center justify-between w-full">
                 <svg
@@ -570,7 +573,7 @@
 
               <a href="#">
                 <h1
-                  class="mt-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
+                  class="mt-2 text-3xl font-semibold tracking-tight text-slate-700 dark:text-white"
                 >
                   4.610
                 </h1>
@@ -580,7 +583,7 @@
               </p>
             </div>
             <div
-              class="w-full p-6 transition bg-white border border-gray-200 rounded-lg shadow sm:max-w-sm dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg hover:scale-105"
+              class="w-full p-6 transition bg-white border border-gray-200 rounded-lg shadow md:max-w-md sm:max-w-sm dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg hover:scale-105"
             >
               <div class="flex items-center justify-between w-full">
                 <svg
@@ -609,7 +612,7 @@
 
               <a href="#">
                 <h1
-                  class="mt-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
+                  class="mt-2 text-3xl font-semibold tracking-tight text-slate-700 dark:text-white"
                 >
                   3.672
                 </h1>
@@ -619,7 +622,7 @@
               </p>
             </div>
             <div
-              class="w-full p-6 transition bg-white border border-gray-200 rounded-lg shadow sm:max-w-sm dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg hover:scale-105"
+              class="w-full p-6 transition bg-white border border-gray-200 rounded-lg shadow md:max-w-md sm:max-w-sm dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg hover:scale-105"
             >
               <div class="flex items-center justify-between w-full">
                 <svg
@@ -648,17 +651,17 @@
 
               <a href="#">
                 <h1
-                  class="mt-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
+                  class="mt-2 text-3xl font-semibold tracking-tight text-slate-700 dark:text-white"
                 >
-                  7.1B
+                  74.587.000
                 </h1>
               </a>
               <p class="mb-2 font-normal text-gray-500 dark:text-gray-400">
-                Total Profit
+                Total Revenue
               </p>
             </div>
             <div
-              class="w-full p-6 transition bg-white border border-gray-200 rounded-lg shadow sm:max-w-sm dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg hover:scale-105"
+              class="w-full p-6 transition bg-white border border-gray-200 rounded-lg shadow md:max-w-md sm:max-w-sm dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg hover:scale-105"
             >
               <div class="flex items-center justify-between w-full">
                 <svg
@@ -685,7 +688,7 @@
 
               <a href="#">
                 <h1
-                  class="mt-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
+                  class="mt-2 text-3xl font-semibold tracking-tight text-slate-700 dark:text-white"
                 >
                   18.120
                 </h1>
@@ -694,12 +697,14 @@
                 Customers
               </p>
             </div>
-          </div>
+          </div> 
+        <!-- END OF ROW 1 GENERAL REPORT -->
 
-          <div class="grid grid-flow-row-dense grid-cols-3 gap-2 md:gap-4">
+        <!-- ROW 2 TEAM PERFORMANCE & WEEKLY BEST CUSTOMER -->
+          <div class="flex flex-col md:grid vw-100 md:grid-flow-row-dense md:grid-cols-3 gap-2 md:gap-4">
             <div class="col-span-2 my-4">
               <h1
-                class="mb-2 text-xl font-semibold text-gray-600 dark:text-gray-100"
+                class="mb-4 text-xl font-semibold text-gray-600 dark:text-gray-100"
               >
                 Teams Performance
               </h1>
@@ -730,7 +735,7 @@
                         >
                           Apple MacBook Pro 17"
                         </th>
-                        <td class="px-6 py-4">Silver</td>
+                        <td class="px-6 py-4">8.590</td>
                         <td class="px-6 py-4 font-semibold text-green-400">
                           $2999
                         </td>
@@ -747,7 +752,7 @@
                         >
                           Apple MacBook Pro 17"
                         </th>
-                        <td class="px-6 py-4">Silver</td>
+                        <td class="px-6 py-4">8.590</td>
                         <td class="px-6 py-4 font-semibold text-green-400">
                           $2999
                         </td>
@@ -764,7 +769,7 @@
                         >
                           Apple MacBook Pro 17"
                         </th>
-                        <td class="px-6 py-4">Silver</td>
+                        <td class="px-6 py-4">8.590</td>
                         <td class="px-6 py-4 font-semibold text-green-400">
                           $2999
                         </td>
@@ -781,7 +786,7 @@
                         >
                           Apple MacBook Pro 17"
                         </th>
-                        <td class="px-6 py-4">Silver</td>
+                        <td class="px-6 py-4">8.590</td>
                         <td class="px-6 py-4 font-semibold text-green-400">
                           $2999
                         </td>
@@ -798,7 +803,7 @@
                         >
                           Apple MacBook Pro 17"
                         </th>
-                        <td class="px-6 py-4">Silver</td>
+                        <td class="px-6 py-4">8.590</td>
                         <td class="px-6 py-4 font-semibold text-green-400">
                           $2999
                         </td>
@@ -812,9 +817,9 @@
               </div>
             </div>
 
-            <div class="my-4">
+            <div class="my-4 md:col-span-1 col-span-2">
               <h1
-                class="mb-2 text-xl font-semibold text-gray-600 dark:text-gray-100"
+                class="mb-4 text-xl font-semibold text-gray-600 dark:text-gray-100"
               >
                 Weekly Best Customer
               </h1>
@@ -937,12 +942,51 @@
               </a>
             </div>
           </div>
+          <!-- EN OF ROW 2 TEAM PERFORMANCE & WEEKLY BEST CUSTOMER -->
+          <div class="flex flex-col md:grid vw-100 md:grid-flow-row-dense md:grid-cols-3 gap-2 md:gap-4">
+            <div class="my-4 md:col-span-1 col-span-2">
+              <h1
+                class="mb-4 text-xl font-semibold text-gray-600 dark:text-gray-100"
+              >
+                Shipping Overview
+              </h1>
+              <div
+              class="w-full px-4 py-2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+            >
+              <canvas id="orderStatusChart"></canvas>
+            </div>
+            </div>
+            <div class="col-span-2 my-4">
+              <h1
+                class="mb-4 text-xl font-semibold text-gray-600 dark:text-gray-100"
+              >
+                Sales Overview
+              </h1>
+              <div
+                class="w-full px-4 py-2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+              >
+                <canvas id="orderChart"></canvas>
+                <div class="mt-2 w-full flex py-2">
+                  <div class="w-1/2 text-center border-r border-slate-300 dark:border-gray-700">
+                    <h2 class="font-semibold text-gray-500 dark:text-gray-400">This Month</h2>
+                    <h1 class="text-xl font-semibold text-slate-800 dark:text-white">Rp.45.293.000</h1>
+                  </div>
+                  <div class="w-1/2 text-center">
+                    <h2 class="font-semibold text-gray-500 dark:text-gray-400">Last Month</h2>
+                    <h1 class="text-xl font-semibold text-slate-800 dark:text-white">Rp.75.293.000</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
     <!-- END OF MAIN CONTENT -->
 
     <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="../node_modules/chart.js/dist/chart.umd.js"></script>
     <script src="../src/demo.js"></script>
   </body>
 </html>
